@@ -28,7 +28,7 @@ class WeatherService {
     throw new Error('Method not implemented.');
   }
   // Define the baseURL, API key, and city name properties
-  private baseURL: string = 'https://api.openweathermap.org';
+  private baseURL: string = 'https://api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}';
   private apiKey: string = process.env.API_KEY || '';
   private cityName: string = '';
 
