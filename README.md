@@ -19,7 +19,7 @@ This application is built with Node.js and Express for the back end, integrated 
 3. **Search History**  
    - Stores previous city searches for easy access.  
 
-4. **Delete Search History** *(Bonus)*  
+4. **Delete Search History** 
    - Allows users to delete specific cities from the search history.
 
 5. **Responsive UI**  
@@ -43,7 +43,7 @@ This application is built with Node.js and Express for the back end, integrated 
    ```
 2. Navigate to the project directory:
    ```bash
-   cd WeatherChallenge
+   cd weatherchallenge9
    ```
 3. Install dependencies:
    ```bash
@@ -64,13 +64,13 @@ This application is built with Node.js and Express for the back end, integrated 
 ## Deployment
 
 The application is deployed on Render. You can access it via the following URL:  
-[Live Application Link](https://your-deployment-url)
+[Live Application Link](https://weatherchallenge9.onrender.com/)
 
 ---
 
 ## Screenshots
 
-![Weather Dashboard](https://via.placeholder.com/600x400)  
+![Weather Dashboard](./assets/Screen%20Shot%202024-12-04%20at%2010.35.57%20PM.png)  
 *Example of the weather dashboard interface.*
 
 ---
@@ -80,12 +80,6 @@ The application is deployed on Render. You can access it via the following URL:
 - Add user authentication to save individual user histories.
 - Support for multiple languages and units of measurement.
 - Real-time weather updates without manual refreshing.
-
----
-
-## License
-
-This project is licensed under the MIT License. 
 
 ---
 
